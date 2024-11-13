@@ -1,70 +1,32 @@
 ---
-
-#------------------------------------------------------------------------------
-# YAML Aliases to simplify maintenance
-
-anchorLinks:
-  - link: &grafana-home
-      url: "https://grafana.com/"
-      params: "time"
-
-#------------------------------------------------------------------------------
-# Panel Config
-
-cellIdPreamble: "cell-"
-cells: 
-  drawio:
-    link:
-      url: "https://app.diagrams.net/?p=svgdata"
-  docs:
-    link:
-      url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/src/README.md"
-  inbox_depth:
-    dataRef: "test-data-large-sin"
-    label:
-      separator: "cr"
-      units: "none"
-      decimalPoints: 0
-    labelColor:
-      gradientMode: "hue"
-      thresholds:
-        - {color: "green", level: 0}
-        - {color: "orange", level: 500}
-        - {color: "red", level: 1000}
-    link: *grafana-home
-  db_transactions:
-    dataRef: "test-data-large-cos"
-    label:
-      separator: "cr"
-      units: "ops"
-      decimalPoints: 0
+anchors:
+  thresholds-operstate: &thresholds-operstate
+    - color: "#FF3154" # red
+      level: 0
+    - color: "#4BDD33" # green
+      level: 1
+  thresholds-traffic: &thresholds-traffic
+    - color: "#bec8d2" # grey
+      level: 0
+    - color: "#4BDD33" # green
+      level: 199999
+    - color: "#FFFF00" # yellow
+      level: 500000
+    - color: "#FF8000" # orange
+      level: 1000000
+    - color: "#FF3154" # red
+      level: 5000000
+  label-config: &label-config
+    separator: replace
+    units: bps
+    decimalPoints: 1
+    valueMappings:
+      - valueMax: 199999
+        text: ​
+      - valueMin: 200000
+cellIdPreamble: cell-
+cells:
+  leaf4_eth54:
+    dataRef: oper-state:leaf4_eth54
     fillColor:
-      gradientMode: "hue"
-      thresholds:
-        - {color: "semi-dark-green", level: 0}
-        - {color: "orange", level: 400}
-        - {color: "red", level: 800}
-    link: *grafana-home
-  start_rate:
-    dataRef: "test-data-small-sin"
-    label:
-      separator: "colon"
-      units: "pps"
-      decimalPoints: 0
-    labelColor:
-      gradientMode: "hue"
-      thresholds:
-        - {color: "green", level: 0}
-        - {color: "orange", level: 100}
-    link: *grafana-home
-  active_workers:
-    dataRef: "test-data-small-cos"
-    label:
-      separator: "cr"
-      units: "none"
-      decimalPoints: 0
-    labelColor:
-      gradientMode: "hue"
-      thresholds:
-        - {color: "#888888", level: 0}
-        - {color: "light-blue", level: 100}
+      thresholds: *thresholds-operstate
