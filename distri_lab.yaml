@@ -27,6 +27,6 @@ anchors:
 cellIdPreamble: cell-
 cells:
   leaf4_eth54:
-    dataRef: oper-state:leaf4_eth54
+    dataRef: leaf_eth54
     fillColor:
       thresholds: *thresholds-operstate
