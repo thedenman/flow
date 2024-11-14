@@ -1,9 +1,9 @@
 ---
 anchors:
   thresholds-operstate: &thresholds-operstate
-    - color: "#FF3154" # red
+    - color: "D5E8D4" # red
       level: 0
-    - color: "#4BDD33" # green
+    - color: "D5E8D4" # green
       level: 1
   thresholds-traffic: &thresholds-traffic
     - color: "#bec8d2" # grey
