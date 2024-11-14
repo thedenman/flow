@@ -30,3 +30,4 @@ cells:
     dataRef: data_eth54
     fillColor:
       thresholds: *thresholds-operstate
+      gradientMode: "hue"
