@@ -27,7 +27,10 @@ anchors:
 cellIdPreamble: cell-
 cells:
   leaf4_eth54:
-    dataRef: data_eth54
+    dataRef: eth1/54
     fillColor:
       thresholds: *thresholds-operstate
-      gradientMode: "hue"
+  leaf4_eth53:
+    dataRef: eth1/53
+    fillColor:
+      thresholds: *thresholds-operstate
