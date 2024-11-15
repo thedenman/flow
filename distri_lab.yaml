@@ -1,7 +1,7 @@
 ---
 anchors:
   thresholds-operstate: &thresholds-operstate
-    - color: "D5E8D4" # red
+    - color: "FF3154" # red
       level: 0
     - color: "D5E8D4" # green
       level: 1
