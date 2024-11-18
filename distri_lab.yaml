@@ -42,8 +42,8 @@ cells:
     dataRef: leaf4_eth1/53
     fillColor:
       thresholds: *thresholds-operstate
-  spine4_eth4_out:
-    dataRef: spine4_eth4_out
+  spine2_eth4_out:
+    dataRef: spine2_eth4_out
     label: *label-config
     strokeColor:
       thresholds: *thresholds-traffic
