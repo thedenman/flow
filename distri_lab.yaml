@@ -20,10 +20,6 @@ anchors:
     separator: replace
     units: bps
     decimalPoints: 1
-    valueMappings:
-      - valueMax: 199999
-        text: ​
-      - valueMin: 200000
 cellIdPreamble: cell-
 cells:
   spine2_eth4:
@@ -43,7 +39,7 @@ cells:
     fillColor:
       thresholds: *thresholds-operstate
   spine2_eth4_out:
-    dataRef: spine2_eth4_out
+    dataRef: spine2_eth1/4_out
     label: *label-config
     strokeColor:
       thresholds: *thresholds-traffic
