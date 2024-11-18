@@ -8,7 +8,7 @@ anchors:
   thresholds-traffic: &thresholds-traffic
     - color: "#bec8d2" # grey
       level: 0
-    - color: "#4BDD33" # green
+    - color: "D5E8D4" # green
       level: 700
     - color: "#FFFF00" # yellow
       level: 500000
