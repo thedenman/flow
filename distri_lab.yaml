@@ -26,11 +26,19 @@ anchors:
       - valueMin: 200000
 cellIdPreamble: cell-
 cells:
+  spine2_eth4:
+    dataRef: spine2_eth1/4
+    fillColor:
+      thresholds: *thresholds-operstate
+  spine1_eth4:
+    dataRef: spine1_eth1/4
+    fillColor:
+      thresholds: *thresholds-operstate
   leaf4_eth54:
-    dataRef: eth1/54
+    dataRef: leaf4_eth1/54
     fillColor:
       thresholds: *thresholds-operstate
   leaf4_eth53:
-    dataRef: eth1/53
+    dataRef: leaf4_eth1/53
     fillColor:
       thresholds: *thresholds-operstate
