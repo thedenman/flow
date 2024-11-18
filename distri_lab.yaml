@@ -20,6 +20,10 @@ anchors:
     separator: replace
     units: bps
     decimalPoints: 0
+    valueMappings:
+      - valueMax: 199999
+        text: ​
+      - valueMin: 200000
 cellIdPreamble: cell-
 cells:
   spine2_eth4:
