@@ -19,7 +19,7 @@ anchors:
   label-config: &label-config
     separator: replace
     units: bps
-    decimalPoints: 1
+    decimalPoints: 0
 cellIdPreamble: cell-
 cells:
   spine2_eth4:
