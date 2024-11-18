@@ -43,6 +43,6 @@ cells:
     fillColor:
       thresholds: *thresholds-operstate
   spine2_eth4_out:
-    dataRef: spine2_eth1/4_out
+    dataRef: spine2_eth4_out
     strokeColor:
       thresholds: *thresholds-traffic
