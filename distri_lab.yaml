@@ -170,6 +170,7 @@ cells:
     label:
       separator: "replace"
       units: "Bps"
+      color: "#000000" # grey
     labelColor:
       color: "#000000" # grey
     strokeColor:
