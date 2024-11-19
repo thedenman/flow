@@ -44,6 +44,10 @@ cells:
       thresholds: *thresholds-operstate
   link_spine2_eth4_out:
     dataRef: spine2_eth4_out
-    label: *label-config
+    label:
+      separator: "replace"
+      units: "bps"
+    labelColor:
+      thresholds: *thresholds-traffic
     strokeColor:
       thresholds: *thresholds-traffic
