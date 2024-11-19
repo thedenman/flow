@@ -78,7 +78,7 @@ cells:
     dataRef: spine1_eth1_out
     label:
       separator: "replace"
-      units: "bps"
+      units: "Bps"
     labelColor:
       thresholds: *thresholds-traffic
     strokeColor:
@@ -87,7 +87,7 @@ cells:
     dataRef: spine1_eth2_out
     label:
       separator: "replace"
-      units: "bps"
+      units: "Bps"
     labelColor:
       thresholds: *thresholds-traffic
     strokeColor:
@@ -96,7 +96,7 @@ cells:
     dataRef: spine1_eth3_out
     label:
       separator: "replace"
-      units: "bps"
+      units: "Bps"
     labelColor:
       thresholds: *thresholds-traffic
     strokeColor:
@@ -105,7 +105,7 @@ cells:
     dataRef: spine1_eth4_out
     label:
       separator: "replace"
-      units: "bps"
+      units: "Bps"
     labelColor:
       thresholds: *thresholds-traffic
     strokeColor:
@@ -114,7 +114,7 @@ cells:
     dataRef: spine1_eth5_out
     label:
       separator: "replace"
-      units: "bps"
+      units: "Bps"
     labelColor:
       thresholds: *thresholds-traffic
     strokeColor:
@@ -123,7 +123,7 @@ cells:
     dataRef: spine2_eth1_out
     label:
       separator: "replace"
-      units: "bps"
+      units: "Bps"
     labelColor:
       thresholds: *thresholds-traffic
     strokeColor:
@@ -132,7 +132,7 @@ cells:
     dataRef: spine2_eth2_out
     label:
       separator: "replace"
-      units: "bps"
+      units: "Bps"
     labelColor:
       thresholds: *thresholds-traffic
     strokeColor:
@@ -141,7 +141,7 @@ cells:
     dataRef: spine2_eth3_out
     label:
       separator: "replace"
-      units: "bps"
+      units: "Bps"
     labelColor:
       thresholds: *thresholds-traffic
     strokeColor:
@@ -150,7 +150,7 @@ cells:
     dataRef: spine2_eth4_out
     label:
       separator: "replace"
-      units: "bps"
+      units: "Bps"
     labelColor:
       thresholds: *thresholds-traffic
     strokeColor:
@@ -159,7 +159,7 @@ cells:
     dataRef: spine2_eth5_out
     label:
       separator: "replace"
-      units: "bps"
+      units: "Bps"
     labelColor:
       thresholds: *thresholds-traffic
     strokeColor:
