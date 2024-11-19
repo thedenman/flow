@@ -30,6 +30,8 @@ cells:
     dataRef: spine1_eth1/1
     fillColor:
       thresholds: *thresholds-operstate
+    link:
+      url: "http://10.100.40.22:3000/d/ug6ErxV7k/fabric-dashboard-gnmi?from=now-15m&to=now&var-source=SPINE1.LABDRO3&var-interface=eth1%2F1&refresh=5s"
   spine1_eth2:
     dataRef: spine1_eth1/2
     fillColor:
