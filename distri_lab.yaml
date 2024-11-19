@@ -68,14 +68,31 @@ cells:
     dataRef: spine2_eth1/5
     fillColor:
       thresholds: *thresholds-operstate
-  leaf4_eth54:
-    dataRef: leaf4_eth1/54
+  leaf3_eth53:
+    dataRef: leaf3_eth1/53
     fillColor:
       thresholds: *thresholds-operstate
+    link:
+      url: "http://10.100.40.22:3000/d/ug6ErxV7k/fabric-dashboard-gnmi?from=now-15m&to=now&var-source=LEAF4.LABDRO3&var-interface=eth54%2F1&refresh=5s"
+  leaf3_eth54:
+    dataRef: leaf3_eth1/54
+    fillColor:
+      thresholds: *thresholds-operstate
+    link:
+      url: "http://10.100.40.22:3000/d/ug6ErxV7k/fabric-dashboard-gnmi?from=now-15m&to=now&var-source=LEAF4.LABDRO3&var-interface=eth54%2F1&refresh=5s"
   leaf4_eth53:
     dataRef: leaf4_eth1/53
     fillColor:
       thresholds: *thresholds-operstate
+    link:
+      url: "http://10.100.40.22:3000/d/ug6ErxV7k/fabric-dashboard-gnmi?from=now-15m&to=now&var-source=LEAF4.LABDRO3&var-interface=eth54%2F1&refresh=5s"
+  leaf4_eth54:
+    dataRef: leaf4_eth1/54
+    fillColor:
+      thresholds: *thresholds-operstate
+    link:
+      url: "http://10.100.40.22:3000/d/ug6ErxV7k/fabric-dashboard-gnmi?from=now-15m&to=now&var-source=LEAF4.LABDRO3&var-interface=eth54%2F1&refresh=5s"
+
   spine1_eth1_out:
     dataRef: spine1_eth1_out
     label:
@@ -154,7 +171,7 @@ cells:
       separator: "replace"
       units: "Bps"
     labelColor:
-      thresholds: *thresholds-traffic
+      color: "#000000" # grey
     strokeColor:
       thresholds: *thresholds-traffic
   spine2_eth5_out:
