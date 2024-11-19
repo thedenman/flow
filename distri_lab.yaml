@@ -17,7 +17,7 @@ anchors:
     - color: "#FF3154" # red
       level: 5000000
   label-config: &label-config
-    separator: "cr"
+    separator: "replace"
     units: bps
     decimalPoints: 0
     valueMappings:
