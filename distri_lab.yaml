@@ -74,8 +74,89 @@ cells:
     dataRef: leaf4_eth1/53
     fillColor:
       thresholds: *thresholds-operstate
-  link_spine2_eth4_out:
+  spine1_eth1_out:
+    dataRef: spine1_eth1_out
+    label:
+      separator: "replace"
+      units: "bps"
+    labelColor:
+      thresholds: *thresholds-traffic
+    strokeColor:
+      thresholds: *thresholds-traffic
+  spine1_eth2_out:
+    dataRef: spine1_eth2_out
+    label:
+      separator: "replace"
+      units: "bps"
+    labelColor:
+      thresholds: *thresholds-traffic
+    strokeColor:
+      thresholds: *thresholds-traffic
+  spine1_eth3_out:
+    dataRef: spine1_eth3_out
+    label:
+      separator: "replace"
+      units: "bps"
+    labelColor:
+      thresholds: *thresholds-traffic
+    strokeColor:
+      thresholds: *thresholds-traffic
+  spine1_eth4_out:
+    dataRef: spine1_eth4_out
+    label:
+      separator: "replace"
+      units: "bps"
+    labelColor:
+      thresholds: *thresholds-traffic
+    strokeColor:
+      thresholds: *thresholds-traffic
+  spine1_eth5_out:
+    dataRef: spine1_eth5_out
+    label:
+      separator: "replace"
+      units: "bps"
+    labelColor:
+      thresholds: *thresholds-traffic
+    strokeColor:
+      thresholds: *thresholds-traffic
+  spine2_eth1_out:
+    dataRef: spine2_eth1_out
+    label:
+      separator: "replace"
+      units: "bps"
+    labelColor:
+      thresholds: *thresholds-traffic
+    strokeColor:
+      thresholds: *thresholds-traffic
+  spine2_eth2_out:
+    dataRef: spine2_eth2_out
+    label:
+      separator: "replace"
+      units: "bps"
+    labelColor:
+      thresholds: *thresholds-traffic
+    strokeColor:
+      thresholds: *thresholds-traffic
+  spine2_eth3_out:
+    dataRef: spine2_eth3_out
+    label:
+      separator: "replace"
+      units: "bps"
+    labelColor:
+      thresholds: *thresholds-traffic
+    strokeColor:
+      thresholds: *thresholds-traffic
+  spine2_eth4_out:
     dataRef: spine2_eth4_out
+    label:
+      separator: "replace"
+      units: "bps"
+    labelColor:
+      thresholds: *thresholds-traffic
+    strokeColor:
+      thresholds: *thresholds-traffic
+  spine2_eth5_out:
+    dataRef: spine2_eth5_out
     label:
       separator: "replace"
       units: "bps"
