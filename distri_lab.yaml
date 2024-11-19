@@ -18,7 +18,7 @@ anchors:
       level: 5000000
   label-config: &label-config
     separator: "replace"
-    units: bps
+    units: "bps"
     decimalPoints: 0
     valueMappings:
       - valueMax: 199999
@@ -44,5 +44,6 @@ cells:
       thresholds: *thresholds-operstate
   link_spine2_eth4_out:
     dataRef: spine2_eth4_out
+    label: *label-config
     strokeColor:
       thresholds: *thresholds-traffic
