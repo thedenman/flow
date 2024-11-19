@@ -9,7 +9,7 @@ anchors:
     - color: "#bec8d2" # grey
       level: 0
     - color: "#4BDD33" # green
-      level: 199999
+      level: 700
     - color: "#FFFF00" # yellow
       level: 500000
     - color: "#FF8000" # orange
