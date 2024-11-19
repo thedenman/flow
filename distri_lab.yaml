@@ -42,7 +42,7 @@ cells:
     dataRef: leaf4_eth1/53
     fillColor:
       thresholds: *thresholds-operstate
-  spine2_eth4_out:
+  link_spine2_eth4_out:
     dataRef: spine2_eth4_out
     strokeColor:
       thresholds: *thresholds-traffic
